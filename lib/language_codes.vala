@@ -59,7 +59,8 @@ namespace Submarine {
 		return null;
 	}
 	
-	//parsed from http://www.loc.gov/standards/iso639-2/php/code_list.php
+	//mostly parsed from http://www.loc.gov/standards/iso639-2/php/code_list.php
+	//also adding brazilian portuguese
 	private const LanguageInfo[] LANGUAGE_INFOS_ARRAY = {
 		{"aar",	null,	"aa",	"Afar"},
 		{"abk",	null,	"ab",	"Abkhazian"},
@@ -408,6 +409,7 @@ namespace Submarine {
 		{"phi",	null,	null,	"Philippine languages"},
 		{"phn",	null,	null,	"Phoenician"},
 		{"pli",	null,	"pi",	"Pali"},
+		{"pob",	null,	null,	"Brazilian portuguese"},
 		{"pol",	null,	"pl",	"Polish"},
 		{"pon",	null,	null,	"Pohnpeian"},
 		{"por",	null,	"pt",	"Portuguese"},
