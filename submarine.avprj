@@ -1,0 +1,64 @@
+### AutoVala Project ###
+autovala_version: 24
+project_name: rastersubmarine
+vala_version: 0.28
+
+vala_binary: src/submarine
+*version: 0.1.7
+vala_local_package: Submarine
+*vala_check_package: gee-0.8
+*vala_check_package: gio-2.0
+*vala_check_package: glib-2.0
+*vala_check_package: gobject-2.0
+*vala_source: report.vala
+*vala_source: submarine.vala
+
+
+vala_library: src/lib/Submarine
+*namespace: Submarine
+*vala_package: posix
+*vala_check_package: gee-0.8
+*vala_check_package: gio-2.0
+*vala_check_package: glib-2.0
+*vala_check_package: gobject-2.0
+*vala_check_package: libarchive
+*vala_check_package: libsoup-2.4
+*vala_check_package: libxml-2.0
+c_library: archive
+*vala_source: XMLRPC.vala
+*vala_source: bierdopje.vala
+*vala_source: cachedata.vala
+*vala_source: divxsubs.vala
+*vala_source: language_codes.vala
+*vala_source: nameparser.vala
+*vala_source: open_subtitles.vala
+*vala_source: podnapisi.vala
+*vala_source: server.vala
+*vala_source: session.vala
+*vala_source: subdb.vala
+*vala_source: subtitle.vala
+*vala_source: subtituloses.vala
+
+
+*po: po
+
+*translate: vala src/lib/XMLRPC.vala
+*translate: vala src/lib/bierdopje.vala
+*translate: vala src/lib/cachedata.vala
+*translate: vala src/lib/divxsubs.vala
+*translate: vala src/lib/language_codes.vala
+*translate: vala src/lib/nameparser.vala
+*translate: vala src/lib/open_subtitles.vala
+*translate: vala src/lib/podnapisi.vala
+*translate: vala src/lib/server.vala
+*translate: vala src/lib/session.vala
+*translate: vala src/lib/subdb.vala
+*translate: vala src/lib/subtitle.vala
+*translate: vala src/lib/subtituloses.vala
+*translate: vala src/report.vala
+*translate: vala src/submarine.vala
+
+*data: data/local
+
+*doc: doc
+
